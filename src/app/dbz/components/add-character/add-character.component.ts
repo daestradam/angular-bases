@@ -20,7 +20,7 @@ export class AddCharacterComponent {
 
     //debugger; //pausar ejecución
 
-    console.log(this.character);
+    //console.log(this.character);
     if(this.character.name.length === 0) return;
     this.onNewCharacter.emit({...this.character}); //this.character lo pasa por referencia
     this.character = { name:'',power:0};
