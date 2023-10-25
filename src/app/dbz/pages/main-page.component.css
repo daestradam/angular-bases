@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+
+  .col {
+    padding: 20px 0px;
+  }
+}
